@@ -902,6 +902,7 @@ class _TIMUIKItHistoryMessageListItemState
       left: left,
       hasArrow: hasArrow,
       borderColor: theme?.white ?? Colors.white,
+      outsideBackgroundColor: Colors.transparent,
       backgroundColor: Colors.transparent,
       shadowColor: Colors.black26,
       hasShadow: isDesktopScreen ? false : true,
